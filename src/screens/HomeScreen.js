@@ -11,6 +11,7 @@ const HomeScreen = (props) => {
     'Color',
     'RGB',
     'Text',
+    'BoxModel'
   ];
 
   return (

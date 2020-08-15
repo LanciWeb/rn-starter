@@ -6,6 +6,7 @@ import ImageScreen from './src/screens/ImageScreen';
 import ColorScreen from './src/screens/ColorScreen';
 import { createAppContainer } from 'react-navigation';
 import CounterScreen from './src/screens/CounterScreen';
+import BoxModelScreen from './src/screens/BoxModelScreen';
 import ComponentsScreen from './src/screens/ComponentsScreen';
 import { createStackNavigator } from 'react-navigation-stack';
 /**
@@ -20,6 +21,7 @@ const routeConfigMap = {
   Image: ImageScreen,
   Color: ColorScreen,
   Counter: CounterScreen,
+  BoxModel: BoxModelScreen,
   Components: ComponentsScreen,
 };
 
